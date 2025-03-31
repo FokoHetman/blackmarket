@@ -1,0 +1,9 @@
+{
+  "repos": {
+    "FokoHetman": {
+      "rev": "e8ae019a95b46a4b2e079d01908fabfc7ff88459",
+      "sha256": "0djgp7qf081d3g3a3jzn12sz4ws8hp39l1gs0aq2nqczxmc3sj9i",
+      "url": "https://github.com/FokoHetman/blackmarket-foko"
+    }
+  }
+}

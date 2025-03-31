@@ -9,8 +9,8 @@ let
 
   mkDistributor = name: attrs:
     let
-      args = {};
-      expr = import (getSrc name attrs);
+      args = {inherit pkgs;};
+      expr = import (getSrc name attrs + ("/" + (attrs.file or "")));
     in 
       expr args;
 in
